@@ -7,6 +7,11 @@
     <title>halaman <?= $data['judul'] ?></title>
     <link rel="stylesheet" href="<?= BASEURL  . '/css/bootstrap.css'; ?>">
 </head>
+<style>
+.rounded-circle {
+    border-radius: 20%;
+}
+</style>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -20,7 +25,8 @@
                 <div class="navbar-nav">
                     <a class="nav-item nav-link active" href="<?= BASEURL; ?>">Home <span
                             class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="<?= BASEURL ;?>about">About</a>
+                    <a class="nav-item nav-link" href="<?= BASEURL; ?>mahasiswa">Mahasiswa</a>
+                    <a class="nav-item nav-link" href="<?= BASEURL; ?>about">About</a>
 
                 </div>
             </div>
