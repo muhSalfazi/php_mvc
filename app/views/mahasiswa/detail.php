@@ -6,7 +6,7 @@
     <h6 class="card-subtitle mb-2 text-muted"><?= $data['mhs']['nim'];?></h6>
     <p class="card-text"><?= $data['mhs']['kelas'];?></p>
     <p class="card-text"><?= $data['mhs']['jurusan'];?></p>
-    <a href="<?= BASEURL;?>/mahasiswa" class="card-link">kembali</a>
+    <a href="<?= BASEURL;?>mahasiswa" class="card-link">kembali</a>
   </div>
 </div>
 
