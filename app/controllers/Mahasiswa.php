@@ -30,7 +30,7 @@ class Mahasiswa extends Controller
     } elseif ($result > 0) {
         Flasher::setFlash('berhasil', 'ditambahkan', 'success');
     } else {
-        Flasher::setFlash('gagal', 'ditambahkan', 'danger');
+        Flasher::setFlash('gagal', ' di tambahkan semua data harus di isi', 'danger');
     }
 
     header('Location:'.BASEURL.'/mahasiswa');
